@@ -63,6 +63,7 @@ AI-Native 转型正在与制造业历史押韵。重读它们，省得重新踩�
 - [Measuring AI Ability to Complete Long Software Tasks](https://arxiv.org/abs/2503.14499) —— METR。任务时间视野约每 7 个月翻倍：一切"Agent 何时胜任岗位"争论之下的趋势线。
 - [Who knew self-improvement could be so terrifying?](https://news.harvard.edu/gazette/story/2026/10/who-knew-self-improvement-could-be-so-terrifying/) —— Harvard Gazette 对 Jonathan Zittrain 的访谈（2026 年 10 月）。当大学校刊开始向校友解释 RSI，这个话题已经走出实验室。
 - [TheAgentCompany](https://arxiv.org/abs/2412.14161) · [代码](https://github.com/TheAgentCompany/TheAgentCompany) —— 把公司当考场的基准：Agent 必须在模拟软件公司的真实工作流里存活。
+- [autoresearch](https://github.com/karpathy/autoresearch) —— Karpathy（2026 年 3 月）。三个文件写尽 AI-Native 分工：人写 `program.md`（"科研组织代码"），agent 写代码。一张 GPU、一晚约 100 个实验、固定 5 分钟预算。
 
 ## Agent 组织
 
@@ -105,6 +106,8 @@ AI-Native 转型正在与制造业历史押韵。重读它们，省得重新踩�
 | [Darwin Gödel Machine](https://arxiv.org/abs/2505.22954) | 智能体档案：连同制造它们的智能体一起版本化，供进化取用。 |
 | [Gödel Agent](https://arxiv.org/abs/2410.04444) · [代码](https://github.com/Arvid-pku/Godel_Agent) | 运行时自我修改及其何时有效的分析——护栏比能力更重要。 |
 | [AgentEvolver](https://arxiv.org/abs/2511.10395) | 策略/记忆/工具三种进化循环合一的多智能体系统。 |
+| [distilly](https://github.com/titanwings/distilly) | 员工技能蒸馏的产品化：输入离职同事的飞书/钉钉/Slack/微信痕迹，产出任何 agent 可用的 `.skill`——迄今该想法最受关注的落地。 |
+| [hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution) | 进化式技能/提示词/代码优化（DSPy + GEPA），套着硬护栏——全量测试、尺寸限制、人工 PR 审核。技能 CI/CD 的半成品；单次 $2–10，无需 GPU。 |
 
 > **悬而未决的工程问题——技能 CI/CD。** 两个员工蒸馏出的技能冲突时，谁的上？技能需要版本、测试、评审、回滚、失效检测——一个新工种。上面还压着一个组织设计问题：*你最好的员工凭什么让自己的独门手艺被蒸馏？* 没有知识贡献激励，得到的就是留一手的技能。
 

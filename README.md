@@ -64,6 +64,7 @@ Signals worth reading, all primary sources:
 - [Measuring AI Ability to Complete Long Software Tasks](https://arxiv.org/abs/2503.14499) — METR. Task time-horizon doubling ~every 7 months: the trend line under every "when do agents take jobs" debate.
 - [Who knew self-improvement could be so terrifying?](https://news.harvard.edu/gazette/story/2026/10/who-knew-self-improvement-could-be-so-terrifying/) — Harvard Gazette interview with Jonathan Zittrain (Oct 2026). When university publications start explaining RSI to alumni, the topic has left the lab.
 - [TheAgentCompany](https://arxiv.org/abs/2412.14161) · [code](https://github.com/TheAgentCompany/TheAgentCompany) — the benchmark that treats a company as the test: agents must survive a simulated software firm's real workflows.
+- [autoresearch](https://github.com/karpathy/autoresearch) — Karpathy (Mar 2026). The AI-native division of labor in three files: the human writes `program.md` ("research org code"), the agent writes the code. One GPU, ~100 experiments overnight, fixed 5-minute budgets.
 
 ## Agent organizations
 
@@ -106,6 +107,8 @@ Every employee's agent distilling their craft into shareable, versioned skills �
 | [Darwin Gödel Machine](https://arxiv.org/abs/2505.22954) | Agent archives: skills *and* the agents that made them, versioned for evolution. |
 | [Gödel Agent](https://arxiv.org/abs/2410.04444) · [code](https://github.com/Arvid-pku/Godel_Agent) | Runtime self-modification with analysis of when it helps — the guardrails matter more than the capability. |
 | [AgentEvolver](https://arxiv.org/abs/2511.10395) | Strategy / memory / tool evolution loops in one multi-agent system. |
+| [distilly](https://github.com/titanwings/distilly) | Employee skill distillation, productized: feed a departing colleague's Feishu / DingTalk / Slack / WeChat trail, get back a working `.skill` for any agent — the most-watched realization of this idea so far. |
+| [hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution) | Evolutionary skill / prompt / code optimization (DSPy + GEPA) behind hard guardrails — full test suite, size limits, human PR review. Skill CI/CD, partially built; $2–10 per run, no GPU. |
 
 > **The open engineering problem — skill CI/CD.** Whose skill wins when two employees' distilled skills conflict? Skills need versioning, tests, review, rollback, expiry detection — a new discipline. And an org-design problem sits on top: *why would your best employee let their edge be distilled?* Without knowledge-contribution incentives, you get sandbagged skills.
 
