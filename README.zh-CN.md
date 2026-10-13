@@ -77,6 +77,7 @@ AI-Native 转型正在与制造业历史押韵。重读它们，省得重新踩�
 | [headcount](https://github.com/cbrock84/headcount) | 按真实公司结构运营的 Agent 组织——15+ 部门、125+ 个 Agent。Agent 优先的组织架构表长什么样。 |
 | [OpenHands](https://github.com/OpenHands/OpenHands) | Agent 干真活的大型开源平台——Agent 企业的底座层。 |
 | [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 面向长时自治任务的自改进 Agent 劳动力——"Agent 劳动"的去向。 |
+| [Orkas](https://github.com/Orkas-AI/Orkas) | MIT 许可、本地优先的桌面 AI 团队：Commander 协调专业 Agent，将研究衔接为报告与可编辑幻灯片，并支持自有模型服务商与 API Key；明确的派发与交接路径让角色分工和信息交接可供检查（原则 2）。 |
 
 ## 组织记忆（做对的"超级大脑"）
 

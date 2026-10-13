@@ -78,6 +78,7 @@ Multi-agent systems are the lab bench for org design — roles, handoffs, manage
 | [headcount](https://github.com/cbrock84/headcount) | An agent organization run as a real company — 15+ departments, 125+ agents. What an agent-first org chart looks like in practice. |
 | [OpenHands](https://github.com/OpenHands/OpenHands) | The large open platform agents do real work on — the substrate layer of the agent firm. |
 | [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | A self-improving agent workforce for long autonomous tasks — where "agent labor" is heading. |
+| [Orkas](https://github.com/Orkas-AI/Orkas) | MIT-licensed, local-first desktop AI workforce: Commander coordinates specialists from research to reports and editable slides, with supported own-provider API keys; explicit dispatch/handoff paths make roles and information handoffs inspectable (principle 2). |
 
 ## Organizational memory (the "super brain", done right)
 
